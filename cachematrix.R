@@ -31,11 +31,4 @@ cacheSolve <- function(x, ...) {
     i
 }
 
-a <- makeCacheMatrix(matrix(rexp(100),10,10))
-cacheSolve(a)
-cacheSolve(a)
-cacheSolve(a)
 
-a$set_x(matrix(rexp(100),10,10))
-cacheSolve(a)
-cacheSolve(a)
